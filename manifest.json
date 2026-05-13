@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Muter",
+  "version": "1.0",
+  "description": "Mute the current tab for a set duration. Default: 2m 30s.",
+  "permissions": ["tabs", "alarms", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tab Muter"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
